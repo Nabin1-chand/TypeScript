@@ -27,4 +27,11 @@ heros.map((hero:String)=>{
     return `hero is ${hero}`;
 })
 
-export{}
+
+function consoleError(errmsg:String):void{
+    console.log(errmsg );
+    
+}
+console.log(consoleError);
+export { };
+  
